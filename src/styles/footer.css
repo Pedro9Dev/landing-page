@@ -1,0 +1,29 @@
+footer {
+  margin-top: 10rem;
+  background-color: #1c2326;
+}
+
+#footer_items {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 8% 15px 8%;
+  align-items: center;
+}
+
+#copyright {
+  color: #d6cfcf;
+  padding-top: 15px;
+  font-weight: 500%;
+  font-size: large;
+}
+
+.social-media-buttons {
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  #footer_items {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
